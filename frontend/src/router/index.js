@@ -30,8 +30,7 @@ router.beforeEach((to, _from, next) => {
 
 export default router
 
-//I am a handsome guy
-//I am  Lebron James
-//I can do all things
-//trust the process
-//nobody can beat me
+// I can do all things
+// be great
+// trust myself
+
