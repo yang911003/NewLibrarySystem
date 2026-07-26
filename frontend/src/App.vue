@@ -1,3 +1,4 @@
+//← 根元件，放 NavBar 和 router-view
 <template>
   <div id="app">
     <NavBar />
