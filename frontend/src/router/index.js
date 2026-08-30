@@ -2,17 +2,17 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { useAuthStore } from '../stores/auth.js'
 
-const routes = [
-  { path: '/',          redirect: '/books' },
-  { path: '/login',     component: () => import('../views/LoginView.vue') },
-  { path: '/register',  component: () => import('../views/RegisterView.vue') },
-  { path: '/books',     component: () => import('../views/BooksView.vue') },
-  {
-    path: '/my-borrows',
-    component: () => import('../views/MyBorrowsView.vue'),
-    meta: { requiresAuth: true }
-  }
-]
+    const routes = [
+      { path: '/',          redirect: '/books' },
+      { path: '/login',     component: () => import('../views/LoginView.vue') },
+      { path: '/register',  component: () => import('../views/RegisterView.vue') },
+      { path: '/books',     component: () => import('../views/BooksView.vue') },
+      {
+        path: '/my-borrows',
+        component: () => import('../views/MyBorrowsView.vue'),
+        meta: { requiresAuth: true }
+      }
+    ]
 
 const router = createRouter({
   history: createWebHistory(),
