@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.*;
 
     @PostMapping("/register")
     public ResponseEntity<ApiResponse<Void>> register(
-            @Valid @RequestBody RegisterRequest req) {
+              @Valid @RequestBody RegisterRequest req) {
         authService.register(req);
         return ResponseEntity.ok(ApiResponse.ok("註冊成功", null));
     }
