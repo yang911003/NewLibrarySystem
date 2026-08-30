@@ -44,5 +44,3 @@ export const borrowApi = {
 
 //我是最強的 頂住壓力 加油
 //Stephen Curry I can do all thigs
-//Lebron James My goat
-//goat goat goat goat

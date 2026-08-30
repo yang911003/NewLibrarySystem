@@ -8,4 +8,4 @@ app.use(createPinia()) // 狀態管理
 app.use(router)    // 路由
 app.mount('#app')  // 掛載到 index.html 的 <div id="app">
 
-//still goat goat
+//模擬多加
